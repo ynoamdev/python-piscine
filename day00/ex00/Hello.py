@@ -3,14 +3,14 @@ ft_tuple = ("Hello", "toto!")
 ft_set   = {"Hello", "tutu!"}
 ft_dict  = {"Hello" : "titi!"}
 
-ft_list[1] = "World"
-ft_tuple = ("Hello", "Morocco")
-ft_dict["Hello"] = "1337-bg"
-# ft_set.pop()
-# ft_set.pop()
-# ft_set.add("Hello")
-# ft_set.add("BG")
-ft_set = set(["Hello", "Bengruir"])
+ft_list[1] = "World!"
+
+ft_tuple = ("Hello", "Morocco!")
+
+ft_set.remove("tutu!")
+ft_set.add("Benguerir!")
+
+ft_dict["Hello"] = "1337-bg!"
 
 
 print(ft_list)

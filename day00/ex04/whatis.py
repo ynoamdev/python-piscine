@@ -1,7 +1,6 @@
 import sys
 
 arg1 = sys.argv[1:]
-sys.argv.index(1)
 if arg1 != []:
     arg2 = arg1[1:]
     if arg2 != []:

@@ -67,7 +67,7 @@ def main():
         r = calc(sys.argv[1])
         print_result(r)
     else:
-        # text = input("What is the text to count?\n", )
+        print("What is the text to count?")
         text = sys.stdin.readlines()
         r = calc("".join(text))
         print_result(r)

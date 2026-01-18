@@ -23,7 +23,7 @@ def main():
         error()
         return 1
     words = args[0].split()
-    result = ft_filter(lambda w: len(w) == x, words)
+    result = ft_filter(lambda w: len(w) >= x, words)
     print([i for i in result])
 
 
