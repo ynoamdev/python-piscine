@@ -15,9 +15,8 @@ def main():
         transposed = np.zeros((400, 400), dtype=int)
         for i in range(400):
             for j in range(400):
-                print(f"{i}, {j}")
                 transposed[j, i] = zoom[i, j, 0]
-        print(f"New shape after Transpose: ({transposed.shape})")
+        print(f"New shape after Transpose: {transposed.shape}")
         print(f"{transposed}")
         plt.imshow(transposed, cmap="gray")
         plt.show()

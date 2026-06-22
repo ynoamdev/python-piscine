@@ -17,7 +17,7 @@ def ft_load(path: str) -> np.ndarray:
             raise AssertionError(
                 "Image extension is not correct. (ex: jpg|jpeg)")
         img = Image.open(path)
-        print(f"The shape of Image is: ({img.shape})")
+        print(f"The shape of Image is: {np.array(img).shape}")
         return np.array(img)
     except Exception as e:
         print(f"Error: {e}")

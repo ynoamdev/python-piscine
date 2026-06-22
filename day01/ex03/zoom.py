@@ -10,7 +10,7 @@ def main():
         img = ft_load("animal.jpeg")
         print(f"{img}")
         zoom = img[200:600, 400:800, 0:1]
-        print(f"New shape after slicing: ({zoom.shape})")
+        print(f"New shape after slicing: {zoom.shape}")
         print(f"{zoom}")
         plt.imshow(zoom, cmap="gray")
         plt.show()
